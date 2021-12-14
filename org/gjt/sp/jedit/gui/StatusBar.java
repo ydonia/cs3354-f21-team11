@@ -335,6 +335,8 @@ public class StatusBar extends JPanel
 
 			int caretPosition = textArea.getCaretPosition();
 			int currLine = textArea.getCaretLine();
+			int totalWords = (textArea.getText().split("\\s+")).length;
+			int leftWords = (textArea.getText(0,caretPosition).split("\\s+")).length;
 
 			// there must be a better way of fixing this...
 			// the problem is that this method can sometimes
@@ -386,17 +388,32 @@ public class StatusBar extends JPanel
 				buf.append('/');
 				buf.append(bufferLength);
 				buf.append(')');
+				buf.append('(');
+				buf.append(leftWords);
+				buf.append('/');
+				buf.append(totalWords);
+				buf.append(')');
 			}
 			else if (jEdit.getBooleanProperty("view.status.show-caret-offset", true))
 			{
 				buf.append('(');
 				buf.append(caretPosition);
 				buf.append(')');
+				buf.append('(');
+				buf.append(leftWords);
+				buf.append('/');
+				buf.append(totalWords);
+				buf.append(')');
 			}
 			else if (jEdit.getBooleanProperty("view.status.show-caret-bufferlength", true))
 			{
 				buf.append('(');
 				buf.append(bufferLength);
+				buf.append(')');
+				buf.append('(');
+				buf.append(leftWords);
+				buf.append('/');
+				buf.append(totalWords);
 				buf.append(')');
 			}
 
