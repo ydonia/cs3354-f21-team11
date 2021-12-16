@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/AbstractOptionPane.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/ActionListHandler.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/actions.dtd</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/actions.xml</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/ActionSet.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ChunkCache.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ColumnBlock.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ElasticTabStopBufferListener.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/Macros.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/Marker.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/RangeMap.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ScreenLineManager.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/SearchBar.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/Selection.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/SelectionManager.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/StructureMatcher.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TextArea.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TextAreaPainter.java</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE" UNTITLED="FALSE">/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TriangleFoldPainter.java</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TriangleFoldPainter.java" buffer "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/AbstractOptionPane.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/ActionListHandler.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/actions.dtd" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/actions.xml" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/ActionSet.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ChunkCache.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ColumnBlock.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ElasticTabStopBufferListener.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/Macros.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/Marker.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/RangeMap.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/ScreenLineManager.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/SearchBar.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/Selection.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/SelectionManager.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/StructureMatcher.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TextArea.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TextAreaPainter.java" buff "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/TriangleFoldPainter.java" buff "global" bufferset
+</PANES>
+<GEOMETRY X="614" Y="25" WIDTH="1306" HEIGHT="987" EXT_STATE="0" />
+</VIEW>
+</PERSPECTIVE>

@@ -154,7 +154,8 @@ public interface StructureMatcher
 
 		private int[] getOffsets(int screenLine, Match match)
 		{
-			int x1, x2;
+			int x1, x2; // this is a test
+
 
 			int matchStartLine = textArea.getScreenLineOfOffset(
 				match.start);

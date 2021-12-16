@@ -1,0 +1,8 @@
+[vfs.browser.path]
+/Users/ydonia/GIT/cs3354-f21-team11/doc
+/Users/ydonia/GIT/cs3354-f21-team11/doc/whatsnew
+/Users/ydonia/GIT/cs3354-f21-team11
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+plugin-manager

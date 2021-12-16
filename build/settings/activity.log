@@ -1,0 +1,665 @@
+Log file created on Wed Dec 15 19:44:59 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+7:44:57 PM [main] [message] Log: When reporting bugs, please include the following information:
+7:44:57 PM [main] [message] Log: java.version=11.0.2
+7:44:57 PM [main] [message] Log: java.vm.version=11.0.2+9
+7:44:57 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+7:44:57 PM [main] [message] Log: java.runtime.version=11.0.2+9
+7:44:57 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+7:44:57 PM [main] [message] Log: java.vendor=Oracle Corporation
+7:44:57 PM [main] [message] Log: java.compiler=null
+7:44:57 PM [main] [message] Log: os.name=Mac OS X
+7:44:57 PM [main] [message] Log: os.version=10.16
+7:44:57 PM [main] [message] Log: os.arch=x86_64
+7:44:57 PM [main] [message] Log: user.home=/Users/ydonia
+7:44:57 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+7:44:57 PM [main] [message] Log: java.class.path=/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core:/Users/ydonia/GIT/cs3354-f21-team11/lib/compile/jsr305.jar:/Users/ydonia/GIT/cs3354-f21-team11/lib/runtime/jsr305.jar
+7:44:57 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/ydonia/GIT/cs3354-f21-team11/build/settings
+7:44:57 PM [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+7:44:57 PM [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+7:44:57 PM [main] [notice] jEdit: the last time it was run.
+7:44:57 PM [main] [notice] jEdit: If you don't know what this means, don't worry.
+7:44:57 PM [main] [notice] jEdit: java.net.ConnectException: Connection refused (Connection refused)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:591)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:540)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:436)
+7:44:57 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:246)
+7:44:57 PM [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:308)
+7:44:57 PM [main] [debug] jEdit: before splash screen activation:173 ms
+7:44:59 PM [main] [debug] jEdit: after splash screen activation:2061 ms
+7:44:59 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/activity.log" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/activity.log~1~"
+7:44:59 PM [main] [notice] jEdit: jEdit version 5.6.0
+7:44:59 PM [main] [message] jEdit: Settings directory is /Users/ydonia/GIT/cs3354-f21-team11/build/settings
+7:44:59 PM [main] [message] jEdit: jEdit home directory is /Users/ydonia/GIT/cs3354-f21-team11
+7:44:59 PM [main] [debug] SplashScreen: init:35/1482ms
+7:44:59 PM [main] [debug] SplashScreen: init system properties:32/1514ms
+7:44:59 PM [main] [message] BeanShell: Beanshell Init
+7:44:59 PM [main] [debug] SplashScreen: init beanshell:62/1576ms
+7:44:59 PM [main] [debug] SplashScreen: loading site properties:3/1579ms
+7:44:59 PM [main] [debug] SplashScreen: loading user properties:3/1582ms
+7:44:59 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+7:44:59 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+7:44:59 PM [main] [debug] SplashScreen: init GUI:4/1586ms
+7:44:59 PM [main] [debug] EditServer: jEdit server started on port 50522
+7:44:59 PM [main] [debug] EditServer: Authorization key is 1568535342
+7:44:59 PM [main] [debug] SplashScreen: init server:27/1613ms
+7:44:59 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:44:59 PM [main] [debug] SplashScreen: init look and feel:19/1632ms
+7:44:59 PM [main] [debug] SplashScreen: init VFS Manager:1/1633ms
+7:44:59 PM [main] [debug] ActionSet: Loading actions from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/actions.xml
+7:44:59 PM [main] [debug] DockableWindowManager: Loading dockables from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/dockables.xml
+7:44:59 PM [main] [debug] SplashScreen: init resources:111/1744ms
+7:44:59 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+7:44:59 PM [main] [debug] SplashScreen: Migrate keymaps:37/1781ms
+7:44:59 PM [main] [notice] jEdit: Loading plugins from /Users/ydonia/GIT/cs3354-f21-team11/jars
+7:44:59 PM [main] [notice] jEdit: Loading plugins from /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars
+7:44:59 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.4.0,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+7:44:59 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.4,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar,class=console.ConsolePlugin]
+7:44:59 PM [main] [debug] SplashScreen: init plugins:27/1808ms
+7:44:59 PM [main] [message] HistoryModel: Loading history
+7:44:59 PM [main] [debug] SplashScreen: init history model:3/1811ms
+7:44:59 PM [main] [message] BufferHistory: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/recent.xml
+7:44:59 PM [main] [debug] SplashScreen: init buffer history:5/1816ms
+7:44:59 PM [main] [message] KillRing: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/killring.xml
+7:44:59 PM [main] [debug] SplashScreen: init killring:8/1824ms
+7:44:59 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:44:59 PM [main] [debug] jEdit: SOCKS proxy disabled
+7:44:59 PM [main] [debug] jEdit: HTTP proxy disabled
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+7:45:00 PM [main] [debug] SplashScreen: init various properties:146/1970ms
+7:45:00 PM [main] [message] jEdit: Loading mode catalog file /Users/ydonia/GIT/cs3354-f21-team11/modes/catalog
+7:45:00 PM [main] [debug] jEdit: Loading user mode catalog
+7:45:00 PM [main] [message] jEdit: Loading mode catalog file /Users/ydonia/GIT/cs3354-f21-team11/build/settings/modes/catalog
+7:45:00 PM [main] [debug] SplashScreen: init modes:58/2028ms
+7:45:00 PM [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+7:45:00 PM [main] [debug] PluginJAR: Opening /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+7:45:00 PM [main] [debug] ConsolePlugin: Loaded 17 Actions
+7:45:00 PM [main] [debug] PluginJAR: Opening /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.4.0,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.4,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar,class=console.ConsolePlugin]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+7:45:00 PM [main] [debug] SplashScreen: activate plugins:45/2073ms
+7:45:00 PM [main] [debug] Macros: Registered beanshell macro handler
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:45:00 PM [main] [debug] SplashScreen: init macros:22/2095ms
+7:45:00 PM [main] [message] BeanShell: Running script /Users/ydonia/GIT/cs3354-f21-team11/startup/startup.bsh
+7:45:00 PM [main] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/text.xml
+7:45:00 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+7:45:00 PM [main] [debug] SplashScreen: run startup scripts:130/2225ms
+7:45:00 PM [main] [debug] SplashScreen: run startup scripts:1/2226ms
+7:45:00 PM [main] [debug] SplashScreen: run startup scripts:2/2227ms
+7:45:00 PM [main] [debug] jEdit: main done:2885 ms
+7:45:00 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/sgml.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/jedit-actions.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+7:45:00 PM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+7:45:00 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 0
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),0)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),1)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 0
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),2)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 1
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),3)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 2
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),4)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 3
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),5)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 4
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ColumnBlock.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),6)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),7)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 6
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),8)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 7
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/),9)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/) at 8
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),10)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 9
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),11)
+7:45:12 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 10
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:45:12 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+7:45:12 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 15312 ms
+7:45:12 PM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/browser.actions.xml
+7:45:13 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=vfs.browser,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+7:45:13 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:45:13 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:45:13 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:45:17 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:45:17 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:45:17 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:45:29 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:00:54 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:00:54 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:00:54 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:00:54 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:00:59 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:01:01 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:01:02 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:01:02 PM [jEdit Worker #1] [message] HyperSearchRequest: 7 OCCURENCES
+8:03:45 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:03:45 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+8:15:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:15:38 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+8:15:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:15:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:17:52 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:17:52 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+8:17:52 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:17:53 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:18:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:18:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:19:12 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:12 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:12 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:19:12 PM [jEdit Worker #2] [message] HyperSearchRequest: 4 OCCURENCES
+8:19:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:19:33 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:19:33 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:19:49 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:49 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:49 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:19:49 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:19:57 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:57 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:19:57 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:19:57 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:20:13 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:20:13 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:20:13 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:20:13 PM [jEdit Worker #3] [message] HyperSearchRequest: 118 OCCURENCES
+8:21:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:21:46 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:21:46 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:21:46 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:21:46 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:21:52 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:21:52 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:21:52 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:22:29 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:22:29 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:22:29 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:22:29 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:22:31 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:22:31 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:22:31 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+8:22:43 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:22:43 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:22:43 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:22:43 PM [jEdit Worker #3] [message] HyperSearchRequest: 137 OCCURENCES
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:22:51 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:22:51 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 5
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:22:51 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=ChunkCache.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:23:00 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:24:11 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:24:11 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:24:11 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:24:11 PM [jEdit Worker #3] [message] HyperSearchRequest: 51 OCCURENCES
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:24:20 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:24:20 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 7
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:24:20 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=ElasticTabStopBufferListener.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:24:30 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:24:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:24:33 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:24:33 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:25:11 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:25:11 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:25:11 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:25:11 PM [jEdit Worker #3] [message] HyperSearchRequest: 1 OCCURENCES
+8:25:14 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:25:14 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:25:14 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:25:38 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:25:38 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:25:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:25:38 PM [jEdit Worker #3] [message] HyperSearchRequest: 33 OCCURENCES
+8:25:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:25:49 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:25:49 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:04 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:26:04 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 10
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:04 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RangeMap.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:30 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:26:34 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:38 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:26:38 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 12
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Selection.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:38 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:48 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:26:48 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 13
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=SelectionManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:26:48 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:52 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:52 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:26:52 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:52 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:52 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:26:56 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:56 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:56 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:26:57 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:26:57 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:27:00 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:05 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:27:09 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:27:09 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:09 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:25 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:26 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:27 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:27:27 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 11
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=ScreenLineManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:27 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:30 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:27:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:37 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:38 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:27:38 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 17
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=TextAreaPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:27:38 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:27:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:51 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:27:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:27:51 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:00 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:28:02 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:02 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:02 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:02 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:02 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:06 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:07 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:07 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:07 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:07 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:10 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:10 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:10 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:10 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:11 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:18 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:19 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:19 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:19 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:23 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:23 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:28:29 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:30 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:28:30 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 18
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=TriangleFoldPainter.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:30 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:41 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:28:41 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 18
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=TextAreaTransferHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:28:41 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:28:53 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:29:00 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:29:07 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:29:07 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:29:07 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:29:07 PM [jEdit Worker #3] [message] HyperSearchRequest: 45 OCCURENCES
+8:29:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:29:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:29:43 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:29:55 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:30:22 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:25 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:25 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:30:26 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+8:30:26 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 7
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=DisplayManager.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+8:30:26 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+8:30:30 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+8:30:55 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:30:55 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:30:55 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+8:30:55 PM [jEdit Worker #3] [message] HyperSearchRequest: 1 OCCURENCES
+8:48:14 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:48:14 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+8:48:14 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+8:48:14 PM [AWT-EventQueue-0] [debug] EditBus: VFSPathSelected[source=org.gjt.sp.jedit.View[active]]
+2:46:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:46:43 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:46:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:46:47 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:46:47 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:46:47 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:46:48 PM [jEdit Worker #3] [message] HyperSearchRequest: 1 OCCURENCES
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+2:46:50 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574 addBufferAt(JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+2:46:50 PM [AWT-EventQueue-0] [debug] BufferSet: 219073574: Buffer added JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 9
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+2:46:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+2:47:08 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:48:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:48:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:48:32 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:48:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:48:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:48:33 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:48:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:48:33 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:49:20 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:49:20 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:49:20 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:52:38 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:52:38 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:52:38 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:52:38 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+2:52:50 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:52:50 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:52:50 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:52:50 PM [jEdit Worker #3] [message] HyperSearchRequest: 30 OCCURENCES
+2:54:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:23 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:23 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:25 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:25 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:25 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:25 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:26 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:27 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:27 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:27 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:28 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:28 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:33 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:33 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:37 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:37 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:37 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:54:37 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:54:37 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:58:22 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:58:22 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:58:22 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:59:52 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:59:52 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:59:52 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:59:52 PM [jEdit Worker #3] [message] HyperSearchRequest: 0 OCCURENCES
+3:00:02 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+3:00:02 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+3:00:02 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x875,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+3:00:02 PM [jEdit Worker #3] [message] HyperSearchRequest: 1 OCCURENCES
+3:02:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:38 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:39 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:39 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:39 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:40 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:40 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:40 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:40 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:41 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:41 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:58 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:02:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:02:58 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:08:56 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:08:56 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:08:56 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:14:23 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:14:23 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:14:23 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:14:33 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:14:33 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:14:33 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:14:41 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:14:41 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:14:41 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:14:57 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:14:57 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:14:57 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:15:07 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:15:07 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:15:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:15:39 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:15:39 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:15:39 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:15:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:15:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:15:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+3:15:43 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:15:56 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:08 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:16:16 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:16 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:29 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:30 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:38 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:16:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:39 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:16:43 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:17:08 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:17:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:17:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:17:25 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:17:30 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:17:38 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:17:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:18:03 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:18:04 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:18:08 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:18:38 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:19:01 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:01 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:03 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:03 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:19:08 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:19:09 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:35 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:38 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:19:38 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:19:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:39 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:19:40 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:41 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+3:19:47 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:47 PM [AWT-EventQueue-0] [debug] JEditTextArea: Drag and drop callback
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: createTransferable()
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaDropHandler: Drag enter
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: Import data
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: => String "public void recentFilesSearch()
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler:  {
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler:   
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler:  }"
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaDropHandler: Drop
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: Export done
+3:19:47 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: => String
+3:19:47 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:53 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:19:59 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:20:00 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:20:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:20:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+3:20:08 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java" to "/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#"
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+3:20:09 PM [AWT-EventQueue-0] [debug] FileVFS: /Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java has permissions 0644
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=JEditTextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea,source=null]
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/#JEditTextArea.java#save#,source=null]
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java,source=null]
+3:20:09 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/JEditTextArea.java~,source=null]
+3:20:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:20:43 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:20:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+3:21:21 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:21:21 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+3:21:21 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]

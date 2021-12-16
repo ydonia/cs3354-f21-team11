@@ -1,0 +1,34 @@
+#jEdit properties
+#Wed Dec 15 10:43:41 CST 2021
+firstTime=false
+helpviewer.extendedState=0
+helpviewer.height=528
+helpviewer.width=750
+helpviewer.x=50
+helpviewer.y=50
+migration.step.checkFileStatus=true
+plugin-manager.extendedState=0
+plugin-manager.height=659
+plugin-manager.mirror.cached-id=NONE
+plugin-manager.width=573
+plugin-manager.x=50
+plugin-manager.y=50
+search.beanshell.toggle=false
+search.ignoreCase.toggle=false
+search.regexp.toggle=false
+search.wholeWord.toggle=false
+search.wrap.toggle=false
+status.errorWidget.height=478
+status.errorWidget.width=845
+status.errorWidget.x=-904
+status.errorWidget.y=235
+vfs.browser.last-filter=*[^~\#]
+vfs.browser.modified.width=100
+vfs.browser.size.width=100
+vfs.browser.status.width=100
+vfs.browser.type.width=100
+view.extendedState=0
+view.height=1018
+view.width=1306
+view.x=607
+view.y=35

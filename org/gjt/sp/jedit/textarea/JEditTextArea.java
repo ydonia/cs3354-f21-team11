@@ -257,6 +257,18 @@ public class JEditTextArea extends TextArea
 		EditBus.send(new PositionChanging(this));
 		return super.replaceSelection(selectedText);
 	}//}}}
+	
+	/*
+	This method should change the search for the recent files. 
+	the problem is that there must already exist a method or mechanism that implements
+	the search feature for the recent files area, and i have not been able to find it.
+	any changes i have made to this method have not worked unfortunately
+	*/
+	// recentFilesSearch() method
+	//public void recentFilesSearch()
+	//{
+		
+	//}
 
 	//{{{ showGoToLineDialog() method
 	/**

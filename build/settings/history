@@ -1,0 +1,15 @@
+[vfs.browser.filter]
+*\[^~#\]
+[vfs.browser.path]
+/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea
+/Users/ydonia/GIT/cs3354-f21-team11/org/gjt/sp/jedit
+/Users/ydonia/GIT/cs3354-f21-team11/doc
+/Users/ydonia/GIT/cs3354-f21-team11/doc/whatsnew
+/Users/ydonia/GIT/cs3354-f21-team11
+[action]
+save
+next-marker
+goto-marker
+add-marker
+word-count
+plugin-manager

@@ -1,0 +1,211 @@
+Log file created on Wed Dec 15 11:00:16 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+11:00:14 AM [main] [message] Log: When reporting bugs, please include the following information:
+11:00:14 AM [main] [message] Log: java.version=11.0.2
+11:00:14 AM [main] [message] Log: java.vm.version=11.0.2+9
+11:00:14 AM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+11:00:14 AM [main] [message] Log: java.runtime.version=11.0.2+9
+11:00:14 AM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+11:00:14 AM [main] [message] Log: java.vendor=Oracle Corporation
+11:00:14 AM [main] [message] Log: java.compiler=null
+11:00:14 AM [main] [message] Log: os.name=Mac OS X
+11:00:14 AM [main] [message] Log: os.version=10.16
+11:00:14 AM [main] [message] Log: os.arch=x86_64
+11:00:14 AM [main] [message] Log: user.home=/Users/ydonia
+11:00:14 AM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+11:00:14 AM [main] [message] Log: java.class.path=/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core:/Users/ydonia/GIT/cs3354-f21-team11/lib/compile/jsr305.jar:/Users/ydonia/GIT/cs3354-f21-team11/lib/runtime/jsr305.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar
+11:00:14 AM [main] [message] jEdit: starting with command line arguments: -settings=/Users/ydonia/GIT/cs3354-f21-team11/build/settings
+11:00:14 AM [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+11:00:14 AM [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+11:00:14 AM [main] [notice] jEdit: the last time it was run.
+11:00:14 AM [main] [notice] jEdit: If you don't know what this means, don't worry.
+11:00:14 AM [main] [notice] jEdit: java.net.ConnectException: Connection refused (Connection refused)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:591)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:540)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:436)
+11:00:14 AM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:246)
+11:00:14 AM [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:308)
+11:00:14 AM [main] [debug] jEdit: before splash screen activation:230 ms
+11:00:16 AM [main] [debug] jEdit: after splash screen activation:2202 ms
+11:00:16 AM [main] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/activity.log" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/activity.log~1~"
+11:00:16 AM [main] [notice] jEdit: jEdit version 5.6.0
+11:00:16 AM [main] [message] jEdit: Settings directory is /Users/ydonia/GIT/cs3354-f21-team11/build/settings
+11:00:16 AM [main] [message] jEdit: jEdit home directory is /Users/ydonia/GIT/cs3354-f21-team11
+11:00:16 AM [main] [debug] SplashScreen: init:31/1460ms
+11:00:16 AM [main] [debug] SplashScreen: init system properties:26/1486ms
+11:00:16 AM [main] [message] BeanShell: Beanshell Init
+11:00:16 AM [main] [debug] SplashScreen: init beanshell:81/1567ms
+11:00:16 AM [main] [debug] SplashScreen: loading site properties:3/1570ms
+11:00:16 AM [main] [debug] SplashScreen: loading user properties:5/1575ms
+11:00:16 AM [main] [debug] GUIUtilities: Icon theme set to: tango
+11:00:16 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+11:00:16 AM [main] [debug] SplashScreen: init GUI:5/1580ms
+11:00:16 AM [main] [debug] EditServer: jEdit server started on port 61229
+11:00:16 AM [main] [debug] EditServer: Authorization key is 15367585
+11:00:16 AM [main] [debug] SplashScreen: init server:33/1613ms
+11:00:16 AM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+11:00:16 AM [main] [debug] SplashScreen: init look and feel:32/1645ms
+11:00:16 AM [main] [debug] SplashScreen: init VFS Manager:1/1646ms
+11:00:16 AM [main] [debug] ActionSet: Loading actions from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/actions.xml
+11:00:17 AM [main] [debug] DockableWindowManager: Loading dockables from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/dockables.xml
+11:00:17 AM [main] [debug] SplashScreen: init resources:108/1754ms
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+11:00:17 AM [main] [debug] SplashScreen: Migrate keymaps:77/1831ms
+11:00:17 AM [main] [notice] jEdit: Loading plugins from /Users/ydonia/GIT/cs3354-f21-team11/jars
+11:00:17 AM [main] [notice] jEdit: Loading plugins from /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.4.0,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.4,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar,class=console.ConsolePlugin]
+11:00:17 AM [main] [debug] SplashScreen: init plugins:41/1872ms
+11:00:17 AM [main] [message] HistoryModel: Loading history
+11:00:17 AM [main] [debug] SplashScreen: init history model:4/1876ms
+11:00:17 AM [main] [message] BufferHistory: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/recent.xml
+11:00:17 AM [main] [debug] SplashScreen: init buffer history:8/1884ms
+11:00:17 AM [main] [message] KillRing: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/killring.xml
+11:00:17 AM [main] [debug] SplashScreen: init killring:11/1895ms
+11:00:17 AM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+11:00:17 AM [main] [debug] jEdit: SOCKS proxy disabled
+11:00:17 AM [main] [debug] jEdit: HTTP proxy disabled
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+11:00:17 AM [main] [debug] SplashScreen: init various properties:197/2092ms
+11:00:17 AM [main] [message] jEdit: Loading mode catalog file /Users/ydonia/GIT/cs3354-f21-team11/modes/catalog
+11:00:17 AM [main] [debug] jEdit: Loading user mode catalog
+11:00:17 AM [main] [message] jEdit: Loading mode catalog file /Users/ydonia/GIT/cs3354-f21-team11/build/settings/modes/catalog
+11:00:17 AM [main] [debug] SplashScreen: init modes:66/2158ms
+11:00:17 AM [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+11:00:17 AM [main] [debug] PluginJAR: Opening /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+11:00:17 AM [main] [debug] ConsolePlugin: Loaded 17 Actions
+11:00:17 AM [main] [debug] PluginJAR: Opening /Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.4.0,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.4,source=/Users/ydonia/GIT/cs3354-f21-team11/build/settings/jars/Console.jar,class=console.ConsolePlugin]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+11:00:17 AM [main] [debug] SplashScreen: activate plugins:46/2204ms
+11:00:17 AM [main] [debug] Macros: Registered beanshell macro handler
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+11:00:17 AM [main] [debug] SplashScreen: init macros:15/2219ms
+11:00:17 AM [main] [message] BeanShell: Running script /Users/ydonia/GIT/cs3354-f21-team11/startup/startup.bsh
+11:00:17 AM [main] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/text.xml
+11:00:17 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+11:00:17 AM [main] [debug] SplashScreen: run startup scripts:143/2362ms
+11:00:17 AM [main] [debug] SplashScreen: run startup scripts:2/2364ms
+11:00:17 AM [main] [debug] SplashScreen: run startup scripts:3/2365ms
+11:00:17 AM [main] [debug] jEdit: main done:3200 ms
+11:00:17 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/sgml.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/jedit-actions.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/java.xml
+11:00:17 AM [AWT-EventQueue-0] [notice] jEdit$2: Loading edit mode /Users/ydonia/GIT/cs3354-f21-team11/modes/xml.xml
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:17 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/)]
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+11:00:18 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),-1)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 0
+11:00:18 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),0)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),1)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added AbstractOptionPane.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 0
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),2)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added ActionListHandler.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 1
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),3)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added actions.dtd (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 2
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),4)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added actions.xml (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 3
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),5)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added ActionSet.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 4
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),6)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added Macros.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 5
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/),7)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added Marker.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/) at 6
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/),8)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added SearchBar.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/search/) at 7
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(StructureMatcher.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),9)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862 addBufferAt(TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/),10)
+11:00:18 AM [AWT-EventQueue-0] [debug] BufferSet: 769352862: Buffer added TextArea.java (~/GIT/cs3354-f21-team11/org/gjt/sp/jedit/textarea/) at 9
+11:00:18 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+11:00:18 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+11:00:18 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 4147 ms
+11:00:18 AM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from file:/Users/ydonia/GIT/cs3354-f21-team11/build/classes/core/org/gjt/sp/jedit/browser.actions.xml
+11:00:19 AM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=vfs.browser,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1306x906,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+11:00:19 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:00:19 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+11:00:19 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+11:00:22 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+11:00:22 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+11:00:22 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+11:00:45 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:45 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+11:00:46 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:46 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:00:46 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:47 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/perspective.xml" to "/Users/ydonia/GIT/cs3354-f21-team11/build/settings/settings-backup/perspective.xml~1~"
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:00:47 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:01:11 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:11 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:12 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:01:12 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:12 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:12 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:01:13 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:13 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:13 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+11:01:13 AM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+11:01:13 AM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
