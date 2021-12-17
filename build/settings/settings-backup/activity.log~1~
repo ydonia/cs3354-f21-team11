@@ -1,0 +1,166 @@
+Log file created on Thu Dec 16 21:13:02 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+9:13:02 PM [main] [message] Log: When reporting bugs, please include the following information:
+9:13:02 PM [main] [message] Log: java.version=11.0.11
+9:13:02 PM [main] [message] Log: java.vm.version=11.0.11+9
+9:13:02 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+9:13:02 PM [main] [message] Log: java.runtime.version=11.0.11+9
+9:13:02 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+9:13:02 PM [main] [message] Log: java.vendor=AdoptOpenJDK
+9:13:02 PM [main] [message] Log: java.compiler=null
+9:13:02 PM [main] [message] Log: os.name=Windows 10
+9:13:02 PM [main] [message] Log: os.version=10.0
+9:13:02 PM [main] [message] Log: os.arch=amd64
+9:13:02 PM [main] [message] Log: user.home=C:\Users\Ali Hilal
+9:13:02 PM [main] [message] Log: java.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot
+9:13:02 PM [main] [message] Log: java.class.path=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jedit.jar
+9:13:02 PM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build/settings
+9:13:02 PM [main] [debug] jEdit: before splash screen activation:89 ms
+9:13:02 PM [main] [debug] jEdit: after splash screen activation:381 ms
+9:13:02 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\activity.log" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\activity.log~1~"
+9:13:02 PM [main] [notice] jEdit: jEdit version 5.6.0
+9:13:02 PM [main] [message] jEdit: Settings directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings
+9:13:02 PM [main] [message] jEdit: jEdit home directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build
+9:13:02 PM [main] [debug] SplashScreen: init:11/267ms
+9:13:02 PM [main] [debug] SplashScreen: init system properties:20/287ms
+9:13:02 PM [main] [message] BeanShell: Beanshell Init
+9:13:02 PM [main] [debug] SplashScreen: init beanshell:24/311ms
+9:13:02 PM [main] [debug] SplashScreen: loading site properties:1/312ms
+9:13:02 PM [main] [debug] SplashScreen: loading user properties:3/315ms
+9:13:02 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+9:13:02 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+9:13:02 PM [main] [debug] SplashScreen: init GUI:2/317ms
+9:13:02 PM [main] [debug] EditServer: jEdit server started on port 57622
+9:13:02 PM [main] [debug] EditServer: Authorization key is 1543300639
+9:13:02 PM [main] [debug] SplashScreen: init server:7/324ms
+9:13:02 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:13:02 PM [main] [debug] SplashScreen: init look and feel:10/334ms
+9:13:02 PM [main] [debug] SplashScreen: init VFS Manager:1/335ms
+9:13:02 PM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+9:13:02 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+9:13:02 PM [main] [debug] SplashScreen: init resources:52/387ms
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+9:13:02 PM [main] [debug] SplashScreen: Migrate keymaps:20/407ms
+9:13:02 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+9:13:02 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\jars
+9:13:02 PM [main] [debug] SplashScreen: init plugins:13/420ms
+9:13:02 PM [main] [message] HistoryModel: Loading history
+9:13:02 PM [main] [debug] SplashScreen: init history model:2/422ms
+9:13:02 PM [main] [message] BufferHistory: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml
+9:13:02 PM [main] [debug] SplashScreen: init buffer history:4/426ms
+9:13:02 PM [main] [message] KillRing: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml
+9:13:02 PM [main] [debug] SplashScreen: init killring:5/431ms
+9:13:02 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:13:02 PM [main] [debug] jEdit: SOCKS proxy disabled
+9:13:02 PM [main] [debug] jEdit: HTTP proxy disabled
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+9:13:02 PM [main] [debug] SplashScreen: init various properties:58/489ms
+9:13:02 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\catalog
+9:13:02 PM [main] [debug] jEdit: Loading user mode catalog
+9:13:02 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\modes\catalog
+9:13:02 PM [main] [debug] SplashScreen: init modes:31/520ms
+9:13:02 PM [main] [debug] SplashScreen: activate plugins:2/522ms
+9:13:02 PM [main] [debug] Macros: Registered beanshell macro handler
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+9:13:02 PM [main] [debug] SplashScreen: init macros:14/536ms
+9:13:02 PM [main] [message] BeanShell: Running script C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\startup\startup.bsh
+9:13:02 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\text.xml
+9:13:02 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+9:13:02 PM [main] [debug] SplashScreen: run startup scripts:60/596ms
+9:13:02 PM [main] [debug] SplashScreen: run startup scripts:1/597ms
+9:13:02 PM [main] [debug] SplashScreen: run startup scripts:2/598ms
+9:13:02 PM [main] [debug] jEdit: main done:757 ms
+9:13:02 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:13:02 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:13:02 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),-1)
+9:13:02 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599: Buffer added Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) at 0
+9:13:02 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:13:02 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),0)
+9:13:02 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),1)
+9:13:03 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+9:13:03 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+9:13:03 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1129 ms
+9:13:03 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:13:03 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+9:13:04 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:13:04 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:13:05 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+9:13:05 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:13:05 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+9:13:07 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:13:32 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\perspective.xml~1~"
+9:13:32 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\Untitled-1" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\#Untitled-1#"
+9:13:35 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:13:35 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:11:22 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:11:22 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:12:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:12:05 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:12:39 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:12:39 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:14:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:14:05 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [message] EditServer: Socket[addr=/127.0.0.1,port=53514,localport=57622]: connected
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=53514,localport=57622]: authenticated successfully
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: parent = "C:\\Users\\Ali Hilal\\Documents\\Summer Class Stuff\\Ahmed COSC\\cs3354-f21-team11";
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: args = new String[1];
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: args[0] = null;
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: view = jEdit.getLastView();
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: if(buffer != null && false) {
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer:  doNotCloseSocket = true;
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: }
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer:  doNotCloseSocket = true;
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: }
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer: if(doNotCloseSocket == void)
+10:14:13 PM [jEdit server daemon [C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\server]] [debug] EditServer:  socket.close();
+10:14:13 PM [AWT-EventQueue-0] [debug] BufferSet: 1581276056: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+10:14:13 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:14:13 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:14:13 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+10:14:13 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:14:13 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+10:14:19 PM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+10:14:19 PM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+10:14:19 PM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+10:14:19 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+10:14:19 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+10:14:22 PM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+10:14:22 PM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+10:14:22 PM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+10:14:22 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+10:14:22 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+10:14:26 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+10:14:26 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+10:14:26 PM [AWT-EventQueue-0] [debug] BufferSet: 1581276056: Buffer removed Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)
+10:14:33 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\perspective.xml~1~"
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:18:41 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+10:18:41 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml
+10:18:41 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\perspective.xml~1~"
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+10:18:41 PM [AWT-EventQueue-0] [debug] BufferSet: 4113599: Buffer removed Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)
+10:18:41 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) is in no bufferSet anymore, closing it
+10:18:41 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+10:18:41 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+10:18:41 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\history" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\history~1~"
+10:18:41 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml
+10:18:41 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\recent.xml~1~"
+10:18:41 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml
+10:18:41 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\killring.xml~1~"
+10:18:41 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\properties" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\properties~1~"

@@ -1,0 +1,251 @@
+Log file created on Thu Dec 16 21:08:17 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+9:08:17 PM [main] [message] Log: When reporting bugs, please include the following information:
+9:08:17 PM [main] [message] Log: java.version=11.0.11
+9:08:17 PM [main] [message] Log: java.vm.version=11.0.11+9
+9:08:17 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+9:08:17 PM [main] [message] Log: java.runtime.version=11.0.11+9
+9:08:17 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+9:08:17 PM [main] [message] Log: java.vendor=AdoptOpenJDK
+9:08:17 PM [main] [message] Log: java.compiler=null
+9:08:17 PM [main] [message] Log: os.name=Windows 10
+9:08:17 PM [main] [message] Log: os.version=10.0
+9:08:17 PM [main] [message] Log: os.arch=amd64
+9:08:17 PM [main] [message] Log: user.home=C:\Users\Ali Hilal
+9:08:17 PM [main] [message] Log: java.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot
+9:08:17 PM [main] [message] Log: java.class.path=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jedit.jar
+9:08:17 PM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build/settings
+9:08:17 PM [main] [debug] jEdit: before splash screen activation:90 ms
+9:08:17 PM [main] [debug] jEdit: after splash screen activation:360 ms
+9:08:17 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\activity.log" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\activity.log~1~"
+9:08:17 PM [main] [notice] jEdit: jEdit version 5.6.0
+9:08:17 PM [main] [message] jEdit: Settings directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings
+9:08:17 PM [main] [message] jEdit: jEdit home directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build
+9:08:17 PM [main] [debug] SplashScreen: init:12/249ms
+9:08:17 PM [main] [debug] SplashScreen: init system properties:17/266ms
+9:08:17 PM [main] [message] BeanShell: Beanshell Init
+9:08:17 PM [main] [debug] SplashScreen: init beanshell:20/286ms
+9:08:17 PM [main] [debug] SplashScreen: loading site properties:2/288ms
+9:08:17 PM [main] [debug] SplashScreen: loading user properties:1/289ms
+9:08:17 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+9:08:17 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+9:08:17 PM [main] [debug] SplashScreen: init GUI:2/291ms
+9:08:17 PM [main] [debug] EditServer: jEdit server started on port 65336
+9:08:17 PM [main] [debug] EditServer: Authorization key is 398631916
+9:08:17 PM [main] [debug] SplashScreen: init server:7/298ms
+9:08:17 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:08:17 PM [main] [debug] SplashScreen: init look and feel:9/307ms
+9:08:17 PM [main] [debug] SplashScreen: init VFS Manager:2/309ms
+9:08:17 PM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+9:08:17 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+9:08:17 PM [main] [debug] SplashScreen: init resources:50/359ms
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+9:08:17 PM [main] [debug] SplashScreen: Migrate keymaps:18/377ms
+9:08:17 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+9:08:17 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\jars
+9:08:17 PM [main] [debug] SplashScreen: init plugins:12/389ms
+9:08:17 PM [main] [debug] SplashScreen: init history model:2/391ms
+9:08:17 PM [main] [message] BufferHistory: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml
+9:08:17 PM [main] [debug] SplashScreen: init buffer history:3/394ms
+9:08:17 PM [main] [message] KillRing: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml
+9:08:17 PM [main] [debug] SplashScreen: init killring:4/398ms
+9:08:17 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+9:08:17 PM [main] [debug] jEdit: SOCKS proxy disabled
+9:08:17 PM [main] [debug] jEdit: HTTP proxy disabled
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+9:08:17 PM [main] [debug] SplashScreen: init various properties:69/467ms
+9:08:17 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\catalog
+9:08:17 PM [main] [debug] jEdit: Loading user mode catalog
+9:08:17 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\modes\catalog
+9:08:17 PM [main] [debug] SplashScreen: init modes:32/499ms
+9:08:17 PM [main] [debug] SplashScreen: activate plugins:3/502ms
+9:08:17 PM [main] [debug] Macros: Registered beanshell macro handler
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+9:08:17 PM [main] [debug] SplashScreen: init macros:13/515ms
+9:08:17 PM [main] [message] BeanShell: Running script C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\startup\startup.bsh
+9:08:17 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\text.xml
+9:08:17 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+9:08:17 PM [main] [debug] SplashScreen: run startup scripts:53/568ms
+9:08:17 PM [main] [debug] SplashScreen: run startup scripts:1/569ms
+9:08:17 PM [main] [debug] SplashScreen: run startup scripts:2/570ms
+9:08:17 PM [main] [debug] jEdit: main done:726 ms
+9:08:17 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:08:17 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:08:18 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+9:08:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:08:18 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),-1)
+9:08:18 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162: Buffer added Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) at 0
+9:08:18 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:08:18 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),0)
+9:08:18 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),1)
+9:08:18 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+9:08:18 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+9:08:18 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1037 ms
+9:08:18 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:08:18 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+9:08:20 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:21 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+9:08:22 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:23 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:24 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:25 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:29 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:33 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:34 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:34 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:37 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:39 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:41 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:42 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:42 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+9:08:43 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+9:08:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:45 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:45 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:46 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\perspective.xml~1~"
+9:08:47 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\Untitled-1" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\#Untitled-1#"
+9:08:49 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:57 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:08:57 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+9:08:58 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+9:08:58 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml
+9:08:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\perspective.xml~1~"
+9:08:58 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+9:08:58 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+9:08:58 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+9:08:58 PM [AWT-EventQueue-0] [debug] BufferSet: 384385162: Buffer removed Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)
+9:08:58 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) is in no bufferSet anymore, closing it
+9:08:58 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+9:08:58 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+9:08:58 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml
+9:08:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\recent.xml~1~"
+9:08:58 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml
+9:08:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\killring.xml~1~"
+9:08:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\properties" to "C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\settings-backup\properties~1~"

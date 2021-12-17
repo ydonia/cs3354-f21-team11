@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-163MI7K" name="org.gjt.sp.jedit.textarea.RangeMapTest" skipped="0" tests="8" time="0.013" timestamp="2021-12-17T04:18:51">
+  <properties>
+    <property name="sun.boot.library.path.ivy.instance" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin" />
+    <property name="java.specification.version" value="11" />
+    <property name="java.specification.version.ivy.instance" value="11" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.cpu.endian.ivy.instance" value="little" />
+    <property name="config.lib.dir" value="lib" />
+    <property name="manual.filename.prefix" value="jedit5.6.0manual-" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ivy.home" value="C:\Users\Ali Hilal\.ivy2" />
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/" />
+    <property name="java.version.ivy.instance" value="11.0.11" />
+    <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.conf.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin" />
+    <property name="os.version.ivy.instance" value="10.0" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\junittestcases12042298947900152857.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\test\raw-reports\IGNORETHIS.xml crashfile=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\junitvmwatcher2398539450388499282.properties propsfile=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\junit16885483064033478711.properties" />
+    <property name="ivy.retrieve.pattern.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="sun.jnu.encoding.ivy.instance" value="Cp1252" />
+    <property name="user.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="jdk.debug" value="release" />
+    <property name="ivy.revision" value="working@DESKTOP-163MI7K" />
+    <property name="java.vendor.version.ivy.instance" value="AdoptOpenJDK-11.0.11+9" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vm.version.ivy.instance" value="11.0.11+9" />
+    <property name="java.version.date" value="2021-04-20" />
+    <property name="file.separator.ivy.instance" value="\" />
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot" />
+    <property name="basedir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="ivy.jar.file" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\ivy\ivy-2.2.0.jar" />
+    <property name="sun.desktop.ivy.instance" value="windows" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.timezone.ivy.instance" value="America/Chicago" />
+    <property name="ivy.conf.file" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\ivysettings.xml" />
+    <property name="user.script.ivy.instance" value="" />
+    <property name="user.variant.ivy.instance" value="" />
+    <property name="ivy.basedir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="ivy.default.ivy.user.dir" value="C:\Users\Ali Hilal\.ivy2" />
+    <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+    <property name="ivy.lib.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/lib" />
+    <property name="user.script" value="" />
+    <property name="ivy.cache.dir" value="C:\Users\Ali Hilal\.ivy2\cache" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.11+9" />
+    <property name="init.done" value="true" />
+    <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+    <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+    <property name="basedir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ivy.dep.file" value="ivy.xml" />
+    <property name="os.name.ivy.instance" value="Windows 10" />
+    <property name="user.language.ivy.instance" value="en" />
+    <property name="config.build.compilerarg" value="-Xlint:unchecked -Xlint:finally -Xlint:fallthrough -Xmaxwarns 1000" />
+    <property name="ivy.settings.file" value="ivysettings.xml" />
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9" />
+    <property name="java.vm.specification.version.ivy.instance" value="11" />
+    <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="java.vendor.url.ivy.instance" value="https://adoptopenjdk.net/" />
+    <property name="line.separator.ivy.instance" value="&#xd;&#xa;" />
+    <property name="java.io.tmpdir" value="C:\Users\ALIHIL~1\AppData\Local\Temp\" />
+    <property name="java.version" value="11.0.11" />
+    <property name="ivy.resolved.file" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\ivy.xml" />
+    <property name="ivy.settings.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.cpu.isalist.ivy.instance" value="amd64" />
+    <property name="lib.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib" />
+    <property name="file.encoding.ivy.instance" value="UTF-8" />
+    <property name="ivy.deliver.ivy.pattern" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="ivy.status" value="integration" />
+    <property name="ant.file.jedit" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build.xml" />
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Cubemos\SkeletonTracking\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\OpenNI\Bin64;C:\Program Files\Nuitrack\nuitrack\nuitrack\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Ali Hilal\AppData\Local\Microsoft\WindowsApps;;C:\Users\Ali Hilal\AppData\Local\Programs\Microsoft VS Code\bin;." />
+    <property name="java.vendor" value="AdoptOpenJDK" />
+    <property name="ivy.jar.present" value="true" />
+    <property name="sun.arch.data.model.ivy.instance" value="64" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ivy.default.ivy.user.dir.ivy.instance" value="C:\Users\Ali Hilal\.ivy2" />
+    <property name="sun.desktop" value="windows" />
+    <property name="textAreaPackage" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\textarea" />
+    <property name="ant.file.type" value="file" />
+    <property name="ivy.configurations.ivy.instance" value="*" />
+    <property name="java.io.tmpdir.ivy.instance" value="C:\Users\ALIHIL~1\AppData\Local\Temp\" />
+    <property name="java.version.date.ivy.instance" value="2021-04-20" />
+    <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.shared.default.root" value="C:\Users\Ali Hilal\.ivy2/shared" />
+    <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.jar.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\ivy" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ivy.deps.changed" value="false" />
+    <property name="config.build.nowarn" value="false" />
+    <property name="target.java.version" value="11" />
+    <property name="ivy.lib.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/lib" />
+    <property name="user.home" value="C:\Users\Ali Hilal" />
+    <property name="win.filename" value="jedit5.6.0install" />
+    <property name="ant.file.type.jedit" value="file" />
+    <property name="jar.location" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="sun.java.command.ivy.instance" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build.xml run" />
+    <property name="java.class.path.ivy.instance" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.base;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.compiler;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.datatransfer;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.desktop;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.instrument;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.logging;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.management;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.management.rmi;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.naming;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.net.http;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.prefs;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.rmi;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.scripting;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.se;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.security.jgss;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.security.sasl;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.smartcardio;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.sql;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.sql.rowset;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.transaction.xa;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.xml;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\java.xml.crypto;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.accessibility;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.aot;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.attach;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.charsets;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.compiler;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.crypto.cryptoki;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.crypto.ec;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.crypto.mscapi;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.dynalink;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.editpad;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.hotspot.agent;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.httpserver;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.ed;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.jvmstat;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.le;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.opt;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.vm.ci;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.vm.compiler;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.internal.vm.compiler.management;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jartool;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.javadoc;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jcmd;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jconsole;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jdeps;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jdi;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jdwp.agent;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jfr;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jlink;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jshell;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jsobject;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.jstatd;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.localedata;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.management;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.management.agent;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.management.jfr;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.naming.dns;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.naming.ldap;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.naming.rmi;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.net;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.pack;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.rmic;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.scripting.nashorn;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.scripting.nashorn.shell;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.sctp;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.security.auth;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.security.jgss;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.unsupported;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.unsupported.desktop;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.xml.dom;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot!\jdk.zipfs;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-antlr.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-bcel.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-bsf.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-log4j.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-oro.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-regexp.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-resolver.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-apache-xalan2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-commons-logging.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-commons-net.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-jai.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-javamail.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-jdepend.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-jmf.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-jsch.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-junit.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-junit4.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-junitlauncher.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-launcher.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-netrexx.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-swing.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-testutil.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-xz.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar" />
+    <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="ivy.checksums" value="sha1,md5" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="ivy.default.settings.dir" value="jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.version" value="2.2.0" />
+    <property name="java.vm.info.ivy.instance" value="mixed mode" />
+    <property name="ivy.distrib.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib" />
+    <property name="ant.library.dir.ivy.instance" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib" />
+    <property name="ivy.settings.url.ivy.instance" value="file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/ivysettings.xml" />
+    <property name="ant.file" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build.xml" />
+    <property name="ivy.project.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="awt.toolkit.ivy.instance" value="sun.awt.windows.WToolkit" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+    <property name="os.arch" value="amd64" />
+    <property name="config.build.debuglevel" value="lines,vars,source" />
+    <property name="ivy.shared.default.root.ivy.instance" value="C:\Users\Ali Hilal\.ivy2/shared" />
+    <property name="ivy.deliver.ivy.pattern.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ivy.conf.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="java.class.version" value="55.0" />
+    <property name="user.country.ivy.instance" value="US" />
+    <property name="ivy.jar.filename" value="ivy-2.2.0.jar" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib" />
+    <property name="ivy.cache.dir.ivy.instance" value="C:\Users\Ali Hilal\.ivy2\cache" />
+    <property name="ant.project.name" value="jedit" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="jdk.debug.ivy.instance" value="release" />
+    <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+    <property name="ivy.settings.file.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\ivysettings.xml" />
+    <property name="jar.filename" value="jedit.jar" />
+    <property name="ivy.default.conf.dir" value="jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="java.runtime.version.ivy.instance" value="11.0.11+9" />
+    <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.build.artifacts.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/build/artifacts" />
+    <property name="ivy.settings.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="config.ivy.version" value="2.2.0" />
+    <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+    <property name="ivy.local.default.root.ivy.instance" value="C:\Users\Ali Hilal\.ivy2/local" />
+    <property name="java.awt.graphicsenv.ivy.instance" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="mac.disk.image.filename" value="jedit5.6.0install.dmg" />
+    <property name="java.class.version.ivy.instance" value="55.0" />
+    <property name="jedit.version.final" value="true" />
+    <property name="ivy.resolve.default.type.filter" value="*" />
+    <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+    <property name="ivy.organisation" value="org.jedit" />
+    <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+    <property name="java.vm.compressedOopsMode.ivy.instance" value="32-bit" />
+    <property name="src.archive.filename" value="jedit5.6.0source.tar.bz2" />
+    <property name="user.name" value="Ali Hilal" />
+    <property name="sun.os.patch.level.ivy.instance" value="" />
+    <property name="ivy.publish.src.artifacts.pattern" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="dist.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\dist" />
+    <property name="build.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build" />
+    <property name="jedit.version" value="5.6.0" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant" />
+    <property name="ivy.module" value="jedit" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="ivy.log.modules.in.use" value="false" />
+    <property name="ivy.nb.targets.copied" value="0" />
+    <property name="ivy.conf.url.ivy.instance" value="file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/ivysettings.xml" />
+    <property name="classes.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\classes" />
+    <property name="os.arch.ivy.instance" value="amd64" />
+    <property name="java.library.path.ivy.instance" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Cubemos\SkeletonTracking\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\OpenNI\Bin64;C:\Program Files\Nuitrack\nuitrack\nuitrack\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Ali Hilal\AppData\Local\Microsoft\WindowsApps;;C:\Users\Ali Hilal\AppData\Local\Programs\Microsoft VS Code\bin;." />
+    <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="user.home.ivy.instance" value="C:\Users\Ali Hilal" />
+    <property name="java.vendor.url.bug.ivy.instance" value="https://github.com/AdoptOpenJDK/openjdk-support/issues" />
+    <property name="ivy.local.default.root" value="C:\Users\Ali Hilal\.ivy2/local" />
+    <property name="java.class.path" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\apiguardian-api.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\byte-buddy-agent.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\byte-buddy.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\hamcrest-core.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\hamcrest-library.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\hamcrest.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\jsr305.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\junit-jupiter-api.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\junit-platform-commons.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\junit.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\mockito-core.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\mockito-junit-jupiter.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\objenesis.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib\test\opentest4j.jar;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\classes\core;C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\classes\test;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-junit.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="AdoptOpenJDK" />
+    <property name="java.awt.printerjob.ivy.instance" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.vendor.ivy.instance" value="AdoptOpenJDK" />
+    <property name="user.variant" value="" />
+    <property name="ivy.project.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="config.build.deprecation" value="true" />
+    <property name="ivy.status.ivy.instance" value="integration" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="jedit.build.number" value="05.06.99.00" />
+    <property name="ivy.retrieve.pattern" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\lib/[conf]/[artifact](-[classifier]).[ext]" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+    <property name="user.language" value="en" />
+    <property name="config.dist.dir" value="dist" />
+    <property name="user.name.ivy.instance" value="Ali Hilal" />
+    <property name="ivy.home.ivy.instance" value="C:\Users\Ali Hilal\.ivy2" />
+    <property name="ant.java.version" value="11" />
+    <property name="ivy.basedir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="ivy.conf.file.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\ivysettings.xml" />
+    <property name="java.vm.vendor.ivy.instance" value="AdoptOpenJDK" />
+    <property name="ant.home.ivy.instance" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant" />
+    <property name="ivy.cache.ttl.default" value="10s" />
+    <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+    <property name="jedit.plugins.artifact.patterns" value="&lt;artifact pattern=&quot;jar:http://ayera.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://cfhcable.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://deac-ams.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://deac-fra.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://deac-riga.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://freefr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://gigenet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://iweb.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://jaist.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://jztkft.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://kumisystems.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://managedway.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://nchc.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://netactuate.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://netcologne.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://netix.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://phoenixnap.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://pilotfiber.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://razaoinfo.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://tenet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://udomain.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://ufpr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://versaweb.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://vorboss.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;" />
+    <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+    <property name="ivy.configurations" value="*" />
+    <property name="ivy.default.always.check.exact.revision" value="false" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ivy.distrib.dir.ivy.instance" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/distrib" />
+    <property name="ant.project.invoked-targets" value="run" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues" />
+    <property name="user.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11" />
+    <property name="ivy.done" value="true" />
+    <property name="path.separator.ivy.instance" value=";" />
+    <property name="config.build.dir" value="build" />
+    <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ivy.resolver.default.check.modified" value="false" />
+    <property name="java.vm.version" value="11.0.11+9" />
+    <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+    <property name="ivy.targets.copied" value="false" />
+    <property name="java.home.ivy.instance" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot" />
+    <property name="dist.jar.filename" value="jedit5.6.0install.jar" />
+    <property name="ivy.settings.url" value="file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/ivysettings.xml" />
+    <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
+    <property name="ivy.build.artifacts.dir" value="C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11/build/artifacts" />
+    <property name="ivy.conf.url" value="file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/ivysettings.xml" />
+  </properties>
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="search" time="0.004" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="copy" time="0.002" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="hide" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="show" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="first" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="last2" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.RangeMapTest" name="preContentRemoved" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

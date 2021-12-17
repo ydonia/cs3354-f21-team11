@@ -1,0 +1,170 @@
+Log file created on Wed Dec 15 20:07:17 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+8:07:17 PM [main] [message] Log: When reporting bugs, please include the following information:
+8:07:17 PM [main] [message] Log: java.version=11.0.11
+8:07:17 PM [main] [message] Log: java.vm.version=11.0.11+9
+8:07:17 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+8:07:17 PM [main] [message] Log: java.runtime.version=11.0.11+9
+8:07:17 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+8:07:17 PM [main] [message] Log: java.vendor=AdoptOpenJDK
+8:07:17 PM [main] [message] Log: java.compiler=null
+8:07:17 PM [main] [message] Log: os.name=Windows 10
+8:07:17 PM [main] [message] Log: os.version=10.0
+8:07:17 PM [main] [message] Log: os.arch=amd64
+8:07:17 PM [main] [message] Log: user.home=C:\Users\Ali Hilal
+8:07:17 PM [main] [message] Log: java.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot
+8:07:17 PM [main] [message] Log: java.class.path=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jedit.jar
+8:07:17 PM [main] [message] jEdit: starting with command line arguments: -settings=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build/settings
+8:07:17 PM [main] [debug] jEdit: before splash screen activation:92 ms
+8:07:17 PM [main] [debug] jEdit: after splash screen activation:432 ms
+8:07:17 PM [main] [notice] jEdit: jEdit version 5.6.0
+8:07:17 PM [main] [message] jEdit: Settings directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings
+8:07:17 PM [main] [message] jEdit: jEdit home directory is C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build
+8:07:17 PM [main] [debug] SplashScreen: init:23/317ms
+8:07:17 PM [main] [debug] SplashScreen: init system properties:18/335ms
+8:07:18 PM [main] [message] BeanShell: Beanshell Init
+8:07:18 PM [main] [debug] SplashScreen: init beanshell:20/355ms
+8:07:18 PM [main] [debug] SplashScreen: loading site properties:1/356ms
+8:07:18 PM [main] [debug] SplashScreen: loading user properties:2/358ms
+8:07:18 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+8:07:18 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+8:07:18 PM [main] [debug] SplashScreen: init GUI:2/360ms
+8:07:18 PM [main] [debug] EditServer: jEdit server started on port 63176
+8:07:18 PM [main] [debug] EditServer: Authorization key is 202668581
+8:07:18 PM [main] [debug] SplashScreen: init server:6/366ms
+8:07:18 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+8:07:18 PM [main] [debug] SplashScreen: init look and feel:11/377ms
+8:07:18 PM [main] [debug] SplashScreen: init VFS Manager:1/378ms
+8:07:18 PM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+8:07:18 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/Ali%20Hilal/Documents/Summer%20Class%20Stuff/Ahmed%20COSC/cs3354-f21-team11/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+8:07:18 PM [main] [debug] SplashScreen: init resources:46/424ms
+8:07:18 PM [main] [debug] KeymapManagerImpl: copyKeymap(jEdit,imported)
+8:07:18 PM [main] [debug] KeymapManagerImpl: Copying C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\keymaps\jEdit_keys.props to C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\keymaps\imported_keys.props
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:07:18 PM [main] [debug] SplashScreen: Migrate keymaps:31/455ms
+8:07:18 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars
+8:07:18 PM [main] [debug] PluginJAR: Opening C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar
+8:07:18 PM [main] [debug] ActionSet: Loading actions from jeditresource:/QuickNotepad.jar!/actions.xml
+8:07:18 PM [main] [debug] DockableWindowManager: Loading dockables from jeditresource:/QuickNotepad.jar!/dockables.xml
+8:07:18 PM [main] [debug] PluginJAR: Writing C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\jars-cache\QuickNotepad.jar.summary
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+8:07:18 PM [main] [notice] jEdit: Loading plugins from C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\jars
+8:07:18 PM [main] [debug] SplashScreen: init plugins:19/474ms
+8:07:18 PM [main] [debug] SplashScreen: init history model:2/476ms
+8:07:18 PM [main] [debug] SplashScreen: init buffer history:1/477ms
+8:07:18 PM [main] [debug] SplashScreen: init killring:1/478ms
+8:07:18 PM [main] [message] CheckFileStatus: Performing migration step: checkFileStatus
+8:07:18 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+8:07:18 PM [main] [debug] jEdit: SOCKS proxy disabled
+8:07:18 PM [main] [debug] jEdit: HTTP proxy disabled
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+8:07:18 PM [main] [debug] SplashScreen: init various properties:68/546ms
+8:07:18 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\catalog
+8:07:18 PM [main] [debug] jEdit: Loading user mode catalog
+8:07:18 PM [main] [debug] jEdit: The user mode path doesn't exist, creating it
+8:07:18 PM [main] [debug] SplashScreen: init modes:31/577ms
+8:07:18 PM [main] [debug] SplashScreen: activate plugins:2/579ms
+8:07:18 PM [main] [debug] Macros: Registered beanshell macro handler
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+8:07:18 PM [main] [debug] SplashScreen: init macros:15/594ms
+8:07:18 PM [main] [message] BeanShell: Running script C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\startup\startup.bsh
+8:07:18 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\modes\text.xml
+8:07:18 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+8:07:18 PM [main] [debug] SplashScreen: run startup scripts:67/661ms
+8:07:18 PM [main] [debug] SplashScreen: run startup scripts:68/662ms
+8:07:18 PM [main] [debug] SplashScreen: run startup scripts:69/663ms
+8:07:18 PM [main] [debug] jEdit: main done:826 ms
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)]
+8:07:18 PM [AWT-EventQueue-0] [debug] BufferSet: 1574567701: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+8:07:18 PM [AWT-EventQueue-0] [debug] BufferSet: 1574567701 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\),-1)
+8:07:18 PM [AWT-EventQueue-0] [debug] BufferSet: 1574567701: Buffer added Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) at 0
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\doc\whatsnew\toc.xml (The system cannot find the path specified)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:117)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\doc\users-guide\toc.xml (The system cannot find the path specified)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:118)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\doc\FAQ\toc.xml (The system cannot find the path specified)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:119)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+8:07:18 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+8:07:18 PM [jEdit Worker #0] [notice] HelpTOCLoader: The API docs for jEdit will not be available (reinstall jEdit if you want them)
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+8:07:18 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1224 ms
+8:07:18 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1: java.io.FileNotFoundException: C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\doc\welcome.html (The system cannot find the path specified)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.io.FileInputStream.open0(Native Method)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.desktop/javax.swing.JEditorPane.getStream(JEditorPane.java:770)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.desktop/javax.swing.JEditorPane.setPage(JEditorPane.java:433)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at org.gjt.sp.jedit.help.HelpViewer$1.doInBackground(HelpViewer.java:323)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at org.gjt.sp.jedit.help.HelpViewer$1.doInBackground(HelpViewer.java:295)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+8:07:18 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$1:  at java.base/java.lang.Thread.run(Thread.java:829)
+8:07:18 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+8:07:32 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:07:34 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+8:07:34 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\perspective.xml
+8:07:34 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+8:07:34 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+8:07:34 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+8:07:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1574567701: Buffer removed Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\)
+8:07:34 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\) is in no bufferSet anymore, closing it
+8:07:34 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+8:07:34 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\recent.xml
+8:07:34 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Ali Hilal\Documents\Summer Class Stuff\Ahmed COSC\cs3354-f21-team11\build\settings\killring.xml
